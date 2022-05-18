@@ -7,9 +7,10 @@
 package sha1_test
 
 import (
-	"crypto/sha1"
 	"syscall"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/sha1"
 )
 
 func TestOutOfBoundsRead(t *testing.T) {

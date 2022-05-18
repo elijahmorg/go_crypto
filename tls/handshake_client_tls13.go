@@ -8,12 +8,13 @@ import (
 	"bytes"
 	"context"
 	"crypto"
-	"crypto/hmac"
-	"crypto/rsa"
 	"errors"
 	"hash"
 	"sync/atomic"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/hmac"
+	"github.com/elijahmorg/go_crypto/rsa"
 )
 
 type clientHandshakeStateTLS13 struct {

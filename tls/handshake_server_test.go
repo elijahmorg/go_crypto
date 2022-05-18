@@ -8,8 +8,6 @@ import (
 	"bytes"
 	"context"
 	"crypto"
-	"crypto/elliptic"
-	"crypto/x509"
 	"encoding/pem"
 	"errors"
 	"fmt"
@@ -22,6 +20,9 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/x509"
 
 	"golang.org/x/crypto/curve25519"
 )

@@ -15,16 +15,17 @@ import (
 	"bytes"
 	"context"
 	"crypto"
-	"crypto/ecdsa"
-	"crypto/ed25519"
-	"crypto/rsa"
-	"crypto/x509"
 	"encoding/pem"
 	"errors"
 	"fmt"
 	"net"
 	"os"
 	"strings"
+
+	"github.com/elijahmorg/go_crypto/ecdsa"
+	"github.com/elijahmorg/go_crypto/ed25519"
+	"github.com/elijahmorg/go_crypto/rsa"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 // Server returns a new TLS server side connection

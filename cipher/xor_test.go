@@ -6,11 +6,12 @@ package cipher_test
 
 import (
 	"bytes"
-	"crypto/cipher"
-	"crypto/rand"
 	"fmt"
 	"io"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 func TestXOR(t *testing.T) {

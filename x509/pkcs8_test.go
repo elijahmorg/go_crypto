@@ -6,14 +6,15 @@ package x509
 
 import (
 	"bytes"
-	"crypto/ecdsa"
-	"crypto/ed25519"
-	"crypto/elliptic"
-	"crypto/rsa"
 	"encoding/hex"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/ecdsa"
+	"github.com/elijahmorg/go_crypto/ed25519"
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/rsa"
 )
 
 // Generated using:

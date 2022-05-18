@@ -6,9 +6,10 @@
 package field
 
 import (
-	"crypto/subtle"
 	"encoding/binary"
 	"math/bits"
+
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 // Element represents an element of the field GF(2^255-19). Note that this

@@ -7,8 +7,8 @@
 package elliptic
 
 import (
-	"crypto/subtle"
 	"encoding/binary"
+	"github.com/elijahmorg/go_crypto/subtle"
 	"math/big"
 )
 

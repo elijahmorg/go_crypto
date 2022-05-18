@@ -7,7 +7,7 @@
 package ecdsa
 
 import (
-	"crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/elliptic"
 	"testing"
 )
 

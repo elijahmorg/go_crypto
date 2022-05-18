@@ -7,11 +7,12 @@ package rsa
 import (
 	"bytes"
 	"crypto"
-	"crypto/rand"
-	"crypto/sha1"
-	"crypto/sha256"
 	"math/big"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/sha1"
+	"github.com/elijahmorg/go_crypto/sha256"
 )
 
 func TestKeyGeneration(t *testing.T) {

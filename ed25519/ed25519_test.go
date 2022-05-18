@@ -9,11 +9,12 @@ import (
 	"bytes"
 	"compress/gzip"
 	"crypto"
-	"crypto/rand"
 	"encoding/hex"
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 type zeroReader struct{}

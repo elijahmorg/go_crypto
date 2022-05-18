@@ -5,14 +5,16 @@
 package ed25519_test
 
 import (
-	"crypto/ed25519"
 	"encoding/hex"
 	"encoding/json"
-	"internal/testenv"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"testing"
+
+	"github.com/elijahmorg/goternal/testenv"
+
+	"github.com/elijahmorg/go_crypto/ed25519"
 )
 
 // TestEd25519Vectors runs a very large set of test vectors that exercise all

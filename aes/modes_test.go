@@ -5,8 +5,9 @@
 package aes
 
 import (
-	"crypto/cipher"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/cipher"
 )
 
 // Check that the optimized implementations of cipher modes will

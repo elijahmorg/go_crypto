@@ -9,16 +9,17 @@ import (
 	"bytes"
 	"compress/bzip2"
 	"crypto"
-	_ "crypto/md5"
-	"crypto/rand"
-	"crypto/sha1"
-	"crypto/sha256"
 	"encoding/hex"
 	"math/big"
 	"os"
 	"strconv"
 	"strings"
 	"testing"
+
+	_ "github.com/elijahmorg/go_crypto/md5"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/sha1"
+	"github.com/elijahmorg/go_crypto/sha256"
 )
 
 func TestEMSAPSS(t *testing.T) {

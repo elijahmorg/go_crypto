@@ -9,9 +9,10 @@ package macOS
 import (
 	"errors"
 	"fmt"
-	"internal/abi"
 	"strconv"
 	"unsafe"
+
+	"github.com/elijahmorg/goternal/abi"
 )
 
 // Security.framework linker flags for the external linker. See Issue 42459.

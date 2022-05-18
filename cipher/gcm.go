@@ -5,10 +5,11 @@
 package cipher
 
 import (
-	subtleoverlap "crypto/internal/subtle"
-	"crypto/subtle"
 	"encoding/binary"
 	"errors"
+
+	subtleoverlap "github.com/elijahmorg/go_crypto/internal/subtle"
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 // AEAD is a cipher mode providing authenticated encryption with associated

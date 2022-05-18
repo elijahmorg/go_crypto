@@ -7,10 +7,11 @@
 package aes
 
 import (
-	"crypto/cipher"
-	subtleoverlap "crypto/internal/subtle"
-	"crypto/subtle"
 	"errors"
+
+	"github.com/elijahmorg/go_crypto/cipher"
+	subtleoverlap "github.com/elijahmorg/go_crypto/internal/subtle"
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 // The following functions are defined in gcm_*.s.

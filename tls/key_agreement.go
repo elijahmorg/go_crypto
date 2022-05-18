@@ -6,13 +6,14 @@ package tls
 
 import (
 	"crypto"
-	"crypto/md5"
-	"crypto/rsa"
-	"crypto/sha1"
-	"crypto/x509"
 	"errors"
 	"fmt"
 	"io"
+
+	"github.com/elijahmorg/go_crypto/md5"
+	"github.com/elijahmorg/go_crypto/rsa"
+	"github.com/elijahmorg/go_crypto/sha1"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 // a keyAgreement implements the client and server side of a TLS key agreement

@@ -5,12 +5,13 @@
 package edwards25519
 
 import (
-	"crypto/ed25519/internal/edwards25519/field"
 	"encoding/hex"
 	"os"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/ed25519/internal/edwards25519/field"
 )
 
 var B = NewGeneratorPoint()

@@ -6,14 +6,15 @@ package rsa
 
 import (
 	"crypto"
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/rand"
-	"crypto/sha256"
 	"encoding/hex"
 	"fmt"
 	"io"
 	"os"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/sha256"
 )
 
 // RSA is able to encrypt only a very limited amount of data. In order

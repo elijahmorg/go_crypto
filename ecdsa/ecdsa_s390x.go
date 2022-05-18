@@ -5,9 +5,9 @@
 package ecdsa
 
 import (
-	"crypto/cipher"
-	"crypto/elliptic"
-	"internal/cpu"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/goternal/cpu"
 	"math/big"
 )
 

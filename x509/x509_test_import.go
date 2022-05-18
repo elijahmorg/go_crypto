@@ -10,10 +10,10 @@
 package main
 
 import (
-	"crypto/rand"
-	"crypto/x509"
-	"crypto/x509/pkix"
 	"encoding/pem"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/x509"
+	"github.com/elijahmorg/go_crypto/x509/pkix"
 	"math/big"
 	"strings"
 	"time"

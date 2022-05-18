@@ -11,8 +11,6 @@ package rand
 
 import (
 	"bufio"
-	"crypto/aes"
-	"crypto/cipher"
 	"encoding/binary"
 	"io"
 	"os"
@@ -20,6 +18,9 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
 )
 
 const urandomDevice = "/dev/urandom"

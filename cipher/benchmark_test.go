@@ -5,10 +5,11 @@
 package cipher_test
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
 	"strconv"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
 )
 
 func benchmarkAESGCMSeal(b *testing.B, buf []byte, keySize int) {

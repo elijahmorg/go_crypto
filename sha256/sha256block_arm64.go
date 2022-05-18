@@ -4,7 +4,7 @@
 
 package sha256
 
-import "internal/cpu"
+import "github.com/elijahmorg/goternal/cpu"
 
 var k = _K
 

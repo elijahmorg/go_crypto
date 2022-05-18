@@ -6,10 +6,11 @@ package rsa_test
 
 import (
 	"crypto"
-	"crypto/rand"
-	"crypto/rsa"
-	"crypto/x509"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/rsa"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 func TestEqual(t *testing.T) {

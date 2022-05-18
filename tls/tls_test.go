@@ -8,11 +8,9 @@ import (
 	"bytes"
 	"context"
 	"crypto"
-	"crypto/x509"
 	"encoding/json"
 	"errors"
 	"fmt"
-	"internal/testenv"
 	"io"
 	"math"
 	"net"
@@ -22,6 +20,10 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/goternal/testenv"
+
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 var rsaCertPEM = `-----BEGIN CERTIFICATE-----

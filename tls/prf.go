@@ -6,14 +6,15 @@ package tls
 
 import (
 	"crypto"
-	"crypto/hmac"
-	"crypto/md5"
-	"crypto/sha1"
-	"crypto/sha256"
-	"crypto/sha512"
 	"errors"
 	"fmt"
 	"hash"
+
+	"github.com/elijahmorg/go_crypto/hmac"
+	"github.com/elijahmorg/go_crypto/md5"
+	"github.com/elijahmorg/go_crypto/sha1"
+	"github.com/elijahmorg/go_crypto/sha256"
+	"github.com/elijahmorg/go_crypto/sha512"
 )
 
 // Split a premaster secret in two as specified in RFC 4346, Section 5.

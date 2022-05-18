@@ -5,9 +5,9 @@
 package aes
 
 import (
-	"crypto/cipher"
-	"crypto/internal/subtle"
-	"internal/cpu"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/internal/subtle"
+	"github.com/elijahmorg/goternal/cpu"
 )
 
 type code int

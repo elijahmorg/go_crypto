@@ -6,10 +6,11 @@ package cipher_test
 
 import (
 	"bytes"
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/des"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/des"
 )
 
 func TestCryptBlocks(t *testing.T) {

@@ -5,11 +5,12 @@
 package nistec_test
 
 import (
-	"crypto/elliptic/internal/nistec"
 	"math/rand"
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/elliptic/internal/nistec"
 )
 
 func TestAllocations(t *testing.T) {

@@ -7,21 +7,11 @@ package x509
 import (
 	"bytes"
 	"crypto"
-	"crypto/dsa"
-	"crypto/ecdsa"
-	"crypto/ed25519"
-	"crypto/elliptic"
-	"crypto/rand"
-	"crypto/rsa"
-	_ "crypto/sha256"
-	_ "crypto/sha512"
-	"crypto/x509/pkix"
 	"encoding/asn1"
 	"encoding/base64"
 	"encoding/hex"
 	"encoding/pem"
 	"fmt"
-	"internal/testenv"
 	"io"
 	"math/big"
 	"net"
@@ -32,6 +22,18 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/goternal/testenv"
+
+	"github.com/elijahmorg/go_crypto/dsa"
+	"github.com/elijahmorg/go_crypto/ecdsa"
+	"github.com/elijahmorg/go_crypto/ed25519"
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/rsa"
+	_ "github.com/elijahmorg/go_crypto/sha256"
+	_ "github.com/elijahmorg/go_crypto/sha512"
+	"github.com/elijahmorg/go_crypto/x509/pkix"
 )
 
 func TestParsePKCS1PrivateKey(t *testing.T) {

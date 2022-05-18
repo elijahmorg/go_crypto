@@ -5,13 +5,14 @@
 package x509_test
 
 import (
-	"crypto/dsa"
-	"crypto/ecdsa"
-	"crypto/ed25519"
-	"crypto/rsa"
-	"crypto/x509"
 	"encoding/pem"
 	"fmt"
+
+	"github.com/elijahmorg/go_crypto/dsa"
+	"github.com/elijahmorg/go_crypto/ecdsa"
+	"github.com/elijahmorg/go_crypto/ed25519"
+	"github.com/elijahmorg/go_crypto/rsa"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 func ExampleCertificate_Verify() {

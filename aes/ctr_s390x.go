@@ -5,9 +5,9 @@
 package aes
 
 import (
-	"crypto/cipher"
-	"crypto/internal/subtle"
 	"encoding/binary"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/internal/subtle"
 )
 
 // Assert that aesCipherAsm implements the ctrAble interface.

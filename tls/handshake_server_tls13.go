@@ -8,13 +8,14 @@ import (
 	"bytes"
 	"context"
 	"crypto"
-	"crypto/hmac"
-	"crypto/rsa"
 	"errors"
 	"hash"
 	"io"
 	"sync/atomic"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/hmac"
+	"github.com/elijahmorg/go_crypto/rsa"
 )
 
 // maxClientPSKIdentities is the number of client PSK identities the server will

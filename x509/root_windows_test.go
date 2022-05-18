@@ -5,10 +5,10 @@
 package x509_test
 
 import (
-	"crypto/tls"
-	"crypto/x509"
 	"errors"
-	"internal/testenv"
+	"github.com/elijahmorg/go_crypto/tls"
+	"github.com/elijahmorg/go_crypto/x509"
+	"github.com/elijahmorg/goternal/testenv"
 	"net"
 	"strings"
 	"syscall"

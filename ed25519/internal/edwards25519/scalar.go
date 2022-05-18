@@ -5,9 +5,10 @@
 package edwards25519
 
 import (
-	"crypto/subtle"
 	"encoding/binary"
 	"errors"
+
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 // A Scalar is an integer modulo

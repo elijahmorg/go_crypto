@@ -4,7 +4,7 @@
 
 package sha1
 
-import "internal/cpu"
+import "github.com/elijahmorg/goternal/cpu"
 
 //go:noescape
 func blockAVX2(dig *digest, p []byte)

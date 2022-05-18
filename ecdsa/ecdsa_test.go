@@ -7,11 +7,6 @@ package ecdsa
 import (
 	"bufio"
 	"compress/bzip2"
-	"crypto/elliptic"
-	"crypto/rand"
-	"crypto/sha1"
-	"crypto/sha256"
-	"crypto/sha512"
 	"encoding/hex"
 	"hash"
 	"io"
@@ -19,6 +14,12 @@ import (
 	"os"
 	"strings"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/sha1"
+	"github.com/elijahmorg/go_crypto/sha256"
+	"github.com/elijahmorg/go_crypto/sha512"
 )
 
 func testAllCurves(t *testing.T, f func(*testing.T, elliptic.Curve)) {

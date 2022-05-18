@@ -7,8 +7,8 @@
 package elliptic
 
 import (
-	"crypto/subtle"
-	"internal/cpu"
+	"github.com/elijahmorg/go_crypto/subtle"
+	"github.com/elijahmorg/goternal/cpu"
 	"math/big"
 	"unsafe"
 )

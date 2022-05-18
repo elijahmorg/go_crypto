@@ -5,8 +5,9 @@
 package fiat_test
 
 import (
-	"crypto/elliptic/internal/fiat"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/elliptic/internal/fiat"
 )
 
 func BenchmarkMul(b *testing.B) {

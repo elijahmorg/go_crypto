@@ -7,8 +7,8 @@
 package main
 
 import (
-	"crypto/elliptic"
 	"encoding/binary"
+	"github.com/elijahmorg/go_crypto/elliptic"
 	"log"
 	"os"
 )

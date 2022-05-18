@@ -6,8 +6,6 @@ package tls
 
 import (
 	"bufio"
-	"crypto/ed25519"
-	"crypto/x509"
 	"encoding/hex"
 	"errors"
 	"flag"
@@ -22,6 +20,9 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/ed25519"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 // TLS reference tests run a connection against a reference implementation

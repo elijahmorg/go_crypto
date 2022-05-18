@@ -10,8 +10,9 @@
 package rc4
 
 import (
-	"crypto/internal/subtle"
 	"strconv"
+
+	"github.com/elijahmorg/go_crypto/internal/subtle"
 )
 
 // A Cipher is an instance of RC4 using a particular key.
@@ -23,7 +24,7 @@ type Cipher struct {
 type KeySizeError int
 
 func (k KeySizeError) Error() string {
-	return "crypto/rc4: invalid key size " + strconv.Itoa(int(k))
+	return "github.com/elijahmorg/go_crypto/rc4: invalid key size " + strconv.Itoa(int(k))
 }
 
 // NewCipher creates and returns a new Cipher. The key argument should be the

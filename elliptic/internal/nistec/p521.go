@@ -12,9 +12,10 @@
 package nistec
 
 import (
-	"crypto/elliptic/internal/fiat"
-	"crypto/subtle"
 	"errors"
+
+	"github.com/elijahmorg/go_crypto/elliptic/internal/fiat"
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 var p521B, _ = new(fiat.P521Element).SetBytes([]byte{

@@ -5,9 +5,10 @@
 package elliptic
 
 import (
-	"crypto/elliptic/internal/nistec"
-	"crypto/rand"
 	"math/big"
+
+	"github.com/elijahmorg/go_crypto/elliptic/internal/nistec"
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 // p521Curve is a Curve implementation based on nistec.P521Point.

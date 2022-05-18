@@ -5,17 +5,19 @@
 package x509_test
 
 import (
-	"crypto/ecdsa"
-	"crypto/elliptic"
-	"crypto/rand"
-	"crypto/tls"
-	"crypto/x509"
-	"crypto/x509/pkix"
-	"internal/testenv"
 	"math/big"
 	"runtime"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/goternal/testenv"
+
+	"github.com/elijahmorg/go_crypto/ecdsa"
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/tls"
+	"github.com/elijahmorg/go_crypto/x509"
+	"github.com/elijahmorg/go_crypto/x509/pkix"
 )
 
 func TestHybridPool(t *testing.T) {

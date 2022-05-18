@@ -5,11 +5,13 @@
 package x509_test
 
 import (
-	"crypto/tls"
-	"crypto/x509"
-	"internal/testenv"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/goternal/testenv"
+
+	"github.com/elijahmorg/go_crypto/tls"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 func TestPlatformVerifier(t *testing.T) {

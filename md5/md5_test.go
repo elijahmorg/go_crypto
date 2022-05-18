@@ -6,13 +6,14 @@ package md5
 
 import (
 	"bytes"
-	"crypto/rand"
 	"encoding"
 	"fmt"
 	"hash"
 	"io"
 	"testing"
 	"unsafe"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 type md5Test struct {

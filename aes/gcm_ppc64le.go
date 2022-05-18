@@ -7,10 +7,10 @@
 package aes
 
 import (
-	"crypto/cipher"
-	"crypto/subtle"
 	"encoding/binary"
 	"errors"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 // This file implements GCM using an optimized GHASH function.

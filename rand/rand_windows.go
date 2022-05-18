@@ -8,7 +8,7 @@
 package rand
 
 import (
-	"internal/syscall/windows"
+	"github.com/elijahmorg/goternal/syscall/windows"
 	"os"
 )
 

@@ -6,8 +6,9 @@ package cipher_test
 
 import (
 	"bytes"
-	"crypto/cipher"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/cipher"
 )
 
 type noopBlock int

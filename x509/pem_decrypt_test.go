@@ -6,11 +6,12 @@ package x509
 
 import (
 	"bytes"
-	"crypto/rand"
 	"encoding/base64"
 	"encoding/pem"
 	"strings"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 func TestDecrypt(t *testing.T) {

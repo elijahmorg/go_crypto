@@ -8,12 +8,13 @@ package sha256
 
 import (
 	"bytes"
-	"crypto/rand"
 	"encoding"
 	"fmt"
 	"hash"
 	"io"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 type sha256Test struct {

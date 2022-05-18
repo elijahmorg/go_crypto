@@ -5,10 +5,11 @@
 package crypto
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/rc4"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/rc4"
 )
 
 func TestRC4OutOfBoundsWrite(t *testing.T) {

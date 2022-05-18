@@ -4,6 +4,6 @@
 
 package sha512
 
-import "internal/cpu"
+import "github.com/elijahmorg/goternal/cpu"
 
 var useAsm = cpu.S390X.HasSHA512

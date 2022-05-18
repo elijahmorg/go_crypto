@@ -5,7 +5,7 @@
 package aes
 
 import (
-	"crypto/cipher"
+	"github.com/elijahmorg/go_crypto/cipher"
 )
 
 // gcmAble is implemented by cipher.Blocks that can provide an optimized

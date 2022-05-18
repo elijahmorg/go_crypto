@@ -11,11 +11,12 @@ package macOS
 
 import (
 	"errors"
-	"internal/abi"
 	"reflect"
 	"runtime"
 	"time"
 	"unsafe"
+
+	"github.com/elijahmorg/goternal/abi"
 )
 
 // Core Foundation linker flags for the external linker. See Issue 42459.

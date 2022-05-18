@@ -7,14 +7,15 @@ package tls
 import (
 	"bytes"
 	"crypto"
-	"crypto/ecdsa"
-	"crypto/ed25519"
-	"crypto/elliptic"
-	"crypto/rsa"
 	"errors"
 	"fmt"
 	"hash"
 	"io"
+
+	"github.com/elijahmorg/go_crypto/ecdsa"
+	"github.com/elijahmorg/go_crypto/ed25519"
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/rsa"
 )
 
 // verifyHandshakeSignature verifies a signature against pre-hashed

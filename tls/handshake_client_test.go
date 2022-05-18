@@ -7,8 +7,6 @@ package tls
 import (
 	"bytes"
 	"context"
-	"crypto/rsa"
-	"crypto/x509"
 	"encoding/base64"
 	"encoding/binary"
 	"encoding/pem"
@@ -26,6 +24,9 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/rsa"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 // Note: see comment in handshake_test.go for details of how the reference

@@ -7,9 +7,10 @@
 package aes
 
 import (
-	"crypto/cipher"
-	"crypto/internal/subtle"
-	"internal/cpu"
+	"github.com/elijahmorg/goternal/cpu"
+
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/internal/subtle"
 )
 
 // defined in asm_*.s

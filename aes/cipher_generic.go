@@ -7,7 +7,7 @@
 package aes
 
 import (
-	"crypto/cipher"
+	"github.com/elijahmorg/go_crypto/cipher"
 )
 
 // newCipher calls the newCipherGeneric function

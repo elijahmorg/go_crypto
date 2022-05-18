@@ -8,13 +8,14 @@ package sha512
 
 import (
 	"bytes"
-	"crypto/rand"
 	"encoding"
 	"encoding/hex"
 	"fmt"
 	"hash"
 	"io"
 	"testing"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 type sha512Test struct {

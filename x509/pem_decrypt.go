@@ -9,15 +9,16 @@ package x509
 // implementation.
 
 import (
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/des"
-	"crypto/md5"
 	"encoding/hex"
 	"encoding/pem"
 	"errors"
 	"io"
 	"strings"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/des"
+	"github.com/elijahmorg/go_crypto/md5"
 )
 
 type PEMCipher int

@@ -24,15 +24,16 @@ package rsa
 
 import (
 	"crypto"
-	"crypto/rand"
-	"crypto/subtle"
 	"errors"
 	"hash"
 	"io"
 	"math"
 	"math/big"
 
-	"crypto/internal/randutil"
+	"github.com/elijahmorg/go_crypto/rand"
+	"github.com/elijahmorg/go_crypto/subtle"
+
+	"github.com/elijahmorg/go_crypto/internal/randutil"
 )
 
 var bigZero = big.NewInt(0)

@@ -21,14 +21,15 @@ package ecdsa
 
 import (
 	"crypto"
-	"crypto/aes"
-	"crypto/cipher"
-	"crypto/elliptic"
-	"crypto/internal/randutil"
-	"crypto/sha512"
 	"errors"
 	"io"
 	"math/big"
+
+	"github.com/elijahmorg/go_crypto/aes"
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/elliptic"
+	"github.com/elijahmorg/go_crypto/internal/randutil"
+	"github.com/elijahmorg/go_crypto/sha512"
 
 	"golang.org/x/crypto/cryptobyte"
 	"golang.org/x/crypto/cryptobyte/asn1"

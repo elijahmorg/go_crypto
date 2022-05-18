@@ -22,8 +22,9 @@ timing side-channels:
 package hmac
 
 import (
-	"crypto/subtle"
 	"hash"
+
+	"github.com/elijahmorg/go_crypto/subtle"
 )
 
 // FIPS 198-1:

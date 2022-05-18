@@ -6,8 +6,9 @@ package rand_test
 
 import (
 	"bytes"
-	"crypto/rand"
 	"fmt"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 // This example reads 10 cryptographically secure pseudorandom numbers from

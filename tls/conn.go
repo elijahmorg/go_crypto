@@ -9,9 +9,6 @@ package tls
 import (
 	"bytes"
 	"context"
-	"crypto/cipher"
-	"crypto/subtle"
-	"crypto/x509"
 	"errors"
 	"fmt"
 	"hash"
@@ -20,6 +17,10 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/subtle"
+	"github.com/elijahmorg/go_crypto/x509"
 )
 
 // A Conn represents a secured connection.

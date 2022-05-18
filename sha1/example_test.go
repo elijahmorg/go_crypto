@@ -5,11 +5,12 @@
 package sha1_test
 
 import (
-	"crypto/sha1"
 	"fmt"
 	"io"
 	"log"
 	"os"
+
+	"github.com/elijahmorg/go_crypto/sha1"
 )
 
 func ExampleNew() {

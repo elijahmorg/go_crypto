@@ -6,9 +6,10 @@ package x509
 
 import (
 	"bytes"
-	"crypto/sha256"
 	"encoding/pem"
 	"sync"
+
+	"github.com/elijahmorg/go_crypto/sha256"
 )
 
 type sum224 [sha256.Size224]byte

@@ -5,9 +5,10 @@
 package aes
 
 import (
-	"crypto/cipher"
-	"crypto/internal/subtle"
 	"strconv"
+
+	"github.com/elijahmorg/go_crypto/cipher"
+	"github.com/elijahmorg/go_crypto/internal/subtle"
 )
 
 // The AES block size in bytes.

@@ -7,7 +7,7 @@
 package fiat
 
 import (
-	"crypto/subtle"
+	"github.com/elijahmorg/go_crypto/subtle"
 	"errors"
 )
 

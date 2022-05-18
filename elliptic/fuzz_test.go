@@ -7,9 +7,10 @@
 package elliptic
 
 import (
-	"crypto/rand"
 	"testing"
 	"time"
+
+	"github.com/elijahmorg/go_crypto/rand"
 )
 
 func TestFuzz(t *testing.T) {
