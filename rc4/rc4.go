@@ -10,6 +10,7 @@
 package rc4
 
 import (
+	"fmt"
 	"strconv"
 
 	"github.com/elijahmorg/go_crypto/internal/subtle"
@@ -43,6 +44,7 @@ func NewCipher(key []byte) (*Cipher, error) {
 		j += uint8(c.s[i]) + key[i%k]
 		c.s[i], c.s[j] = c.s[j], c.s[i]
 	}
+	fmt.Println("Elijah was here :)")
 	return &c, nil
 }
 
